@@ -15,49 +15,49 @@ const Services = () => {
         </div>
         <div className='grid grid-cols-3 gap-5'>
             <div className='flex text-black bg-[#FEF0C3] pt-8 pl-4 rounded-3xl overflow-hidden justify-between shadow-lg'>
-                <div className='flex flex-col justify-around border-2'>
-                    <h1 className='font-bold text-xl'>Teeth Whitening</h1>
-                    <p className='text-sm'>Cosmetic treatment to enhance the whiteness of teeth</p>
+                <div className='flex flex-col justify-around w-36'>
+                    <h1 className='font-bold text-2xl'>Teeth Whitening</h1>
+                    <p className='text-sm font-bold text-sm'>Cosmetic treatment to enhance the whiteness of teeth</p>
                     <button className='bg-white p-2 mb-7 rounded-2xl font-bold text-md w-36'>Read More</button>
                 </div>
                 <img src={Person1} alt="Person1" />
             </div>
             <div className='flex text-black bg-[#FEE6DC] pt-8 pl-4 rounded-3xl overflow-hidden justify-between shadow-lg'>
-                <div className='flex flex-col justify-around border-2'>
-                    <h1 className='font-bold text-xl'>Dental Implant</h1>
-                    <p className='text-sm'>Surgical placement of artificial tooth roots</p>
+                <div className='flex flex-col justify-around w-36'>
+                    <h1 className='font-bold text-2xl'>Dental Implant</h1>
+                    <p className='text-sm font-bold text-sm'>Surgical placement of artificial tooth roots</p>
                     <button className='bg-white p-2 mb-7 rounded-2xl font-bold text-md w-36'>Read More</button>
                 </div>
                 <img src={Person2} alt="Person2" />
             </div>
             <div className='flex text-black bg-[#DFF7EA] pt-8 pl-4 rounded-3xl overflow-hidden justify-between shadow-lg'>
-                <div className='flex flex-col justify-around border-2'>
-                    <h1 className='font-bold text-xl'>Teeth Fillings</h1>
-                    <p className='text-sm'>Restorative procedures to repair cavities and damaged teeth</p>
+                <div className='flex flex-col justify-around w-36'>
+                    <h1 className='font-bold text-2xl'>Teeth Fillings</h1>
+                    <p className='text-sm font-bold text-sm'>Restorative procedures to repair cavities and damaged teeth</p>
                     <button className='bg-white p-2 mb-7 rounded-2xl font-bold text-md w-36'>Read More</button>
                 </div>
                 <img src={Person3} alt="Person3" />
             </div>
             <div className='flex text-black bg-[#FEE6DC] pt-8 pl-4 rounded-3xl overflow-hidden justify-between shadow-lg'>
-                <div className='flex flex-col justify-around border-2'>
-                    <h1 className='font-bold text-xl'>Oral Surgery</h1>
-                    <p className='text-sm'>Surgical procedures, including extractios and dental implants</p>
+                <div className='flex flex-col justify-around w-36'>
+                    <h1 className='font-bold text-2xl'>Oral Surgery</h1>
+                    <p className='text-sm font-bold text-sm'>Surgical procedures, including extractios and dental implants</p>
                     <button className='bg-white p-2 mb-7 rounded-2xl font-bold text-md w-36'>Read More</button>
                 </div>
                 <img src={Person4} alt="Person4" />
             </div>
             <div className='flex text-black bg-[#DFF7EA] pt-8 pl-4 rounded-3xl overflow-hidden justify-between shadow-lg'>
-                <div className='flex flex-col justify-around border-2'>
-                    <h1 className='font-bold text-xl'>Crown and Bridges</h1>
-                    <p className='text-sm'>Restoration options for damaged or missing teeth</p>
+                <div className='flex flex-col justify-around w-36'>
+                    <h1 className='font-bold text-2xl'>Crown and Bridges</h1>
+                    <p className='text-sm font-bold text-sm'>Restoration options for damaged or missing teeth</p>
                     <button className='bg-white p-2 mb-7 rounded-2xl font-bold text-md w-36'>Read More</button>
                 </div>
                 <img src={Person5} alt="Person5" />
             </div>
             <div className='flex text-black bg-[#FEF0C3] pt-8 pl-4 rounded-3xl overflow-hidden justify-between shadow-lg'>
-                <div className='flex flex-col justify-around border-2'>
-                    <h1 className='font-bold text-xl'>Periodontal Care</h1>
-                    <p className='text-sm'>Services for gum health, including scalling and root planing</p>
+                <div className='flex flex-col justify-around w-36'>
+                    <h1 className='font-bold text-2xl'>Periodontal Care</h1>
+                    <p className='text-sm font-bold text-sm'>Services for gum health, including scalling and root planing</p>
                     <button className='bg-white p-2 mb-7 rounded-2xl font-bold text-md w-36'>Read More</button>
                 </div>
                 <img src={Person6} alt="Person6" />
