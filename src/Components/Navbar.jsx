@@ -10,7 +10,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className='flex justify-around items-center h-24 max-2-[1240px] mx-auto px-4 gap-10 text-black'>
+    <div className='flex justify-around items-center h-24 max-w-[1240px] mx-auto px-4 gap-10 text-black'>
         <h1 className='text-3xl font-bold text-[#75B8EE]'>Goldfem Dental Clinic</h1>
         <ul className='hidden lg:flex'>
             <li className='p-4 font-bold cursor-pointer'>Home</li>
