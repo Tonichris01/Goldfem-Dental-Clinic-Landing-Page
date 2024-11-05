@@ -1,10 +1,13 @@
 import React from 'react'
 import WhyChooseUsImg from '../assets/WhyChooseUs.png'
 import GoodSign from '../assets/goodcheck.png';
+import BackgroundImg from '../assets/background.png';
+
 const WhyChooseUs = () => {
   return (
     <div className='container max-w-[1240px] mt-[96px] w-full h-screen mx-auto'>
-        <div className='grid grid-cols-2 gap-5'>
+        <img src={BackgroundImg} alt="BackgroundImg" className='absolute right-0 top-[1780px] -z-10'/>
+        <div className='grid grid-cols-2 gap-5 z-10'>
             <div className='text-left mt-5 p-2 w-4/5'>
                 <h3 className='font-bold text-xl text-[#89DB7B] p-2 pb-1'>Why Choose Us</h3>
                 <h1 className='font-bold text-4xl p-2 mb-10 leading-relaxed'>Comprehensive <br /> Dental Services</h1>
