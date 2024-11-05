@@ -6,6 +6,7 @@ import About from "./Components/About";
 import WhyChooseUs from "./Components/WhyChooseUs";
 import Testimonials from "./Components/Testimonials";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <WhyChooseUs />
       <Testimonials />
       <Contact />
+      <Footer />
 
     </div>
   );
