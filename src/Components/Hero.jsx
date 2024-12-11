@@ -7,18 +7,18 @@ import Star from '../assets/Star.png';
 import Vector from '../assets/Vector.png';
 const Hero = () => {
   return (
-    <div className='container max-w-[1240px] mt-[96px] w-full h-screen mx-auto'>
-        <div className='flex text-left text-black font-bold mx-auto pr-3'>
-            <div className='w-[1000px] h-auto z-10'>
-                <h1 className='text-6xl leading-relaxed'>Dental Excellence Starts Here: Your Guide to a Brighter, Healthier Smile</h1>
-                <div className='flex my-4'>
+    <div className='container max-w-[80%] mt-[20px] h-full mx-auto'>
+        <div className='flex text-center md:text-left text-black font-bold mx-auto md:pr-3'>
+            <div className='h-auto z-10'>
+                <h1 className='text-3xl md:text-4xl lg:text-5xl lg:leading-tight'>Dental Excellence Starts Here: Your Guide to a Brighter, Healthier Smile</h1>
+                <div className='flex my-4 justify-start'>
                     <button className='flex px-6 py-3 my-auto font-bold cursor-pointer bg-[#89DB7B] rounded-[30px] z-10 gap-3'>Booking Now <GoArrowDownRight className="font-extrabold text-[25px]"/></button>
                     <img src={Substract} alt="Substract.png" className='ml-[-60px] w-20' />
                 </div>
             </div>
-            <img src={HeroImg} alt="Female Dentist Smiling" className='ml-[-50px]'/>
+            <img src={HeroImg} alt="Female Dentist Smiling" className='hidden sm:flex md:w-3/5 lg:w-full md:ml-[-90px] lg:ml-[-50px]'/>
         </div>
-        <div className='grid grid-cols-4 mt-[-50px] mx-auto gap-8 z-100'>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-4  md:mt-[-50px] mx-auto gap-8 z-100'>
             <div className='px-5 py-7  shadow bg-white rounded-3xl'>
                 <img src={CustomerService} alt="Customer Service" className='mb-2'/>
                 <h2 className='font-bold text-xl'>Free Consultation</h2>

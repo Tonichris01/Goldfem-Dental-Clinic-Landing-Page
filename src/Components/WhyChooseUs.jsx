@@ -5,10 +5,10 @@ import BackgroundImg from '../assets/background.png';
 
 const WhyChooseUs = () => {
   return (
-    <div className='container max-w-[1240px] mt-[96px] w-full h-screen mx-auto'>
-        <img src={BackgroundImg} alt="BackgroundImg" className='absolute right-0 top-[1780px] -z-10'/>
-        <div className='grid grid-cols-2 gap-5 z-10'>
-            <div className='text-left mt-5 p-2 w-4/5'>
+    <div className='container max-w-[80%] mt-[96px] w-full h-full mx-auto'>
+        <img src={BackgroundImg} alt="BackgroundImg" className='absolute right-0 top-[4100px] md:top-[2100px] lg:top-[1300px] w-2/4 md:w-2/4  -z-10'/>
+        <div className='grid md:grid-cols-2 gap-5 z-10'>
+            <div className='text-left mt-5 p-2 w-full z-10'>
                 <h3 className='font-bold text-xl text-[#89DB7B] p-2 pb-1'>Why Choose Us</h3>
                 <h1 className='font-bold text-4xl p-2 mb-10 leading-relaxed'>Comprehensive <br /> Dental Services</h1>
                 <ul className='list-none space-y-2'>
@@ -49,7 +49,7 @@ const WhyChooseUs = () => {
                     </li>
                 </ul>
             </div>
-            <img src={WhyChooseUsImg} alt="Why choose us..." />
+            <img src={WhyChooseUsImg} alt="Why choose us..." className='hidden md:flex md:w-full'/>
         </div>
     </div>
   )

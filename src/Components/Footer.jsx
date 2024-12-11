@@ -6,9 +6,9 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className='border-t-2 border-black'>
-        <div className='container max-w-[1240px] my-5 w-full mx-auto'>
+        <div className='container max-w-[80%] my-5 w-full mx-auto'>
             <h1 className='text-3xl font-bold text-[#75B8EE]'>Goldfem Dental Clinic</h1>
-            <div className='grid grid-cols-3 p-5'>
+            <div className='grid md:grid-cols-3 p-5'>
                 <div className='text-left p-3'>
                     <h3 className='font-bold text-xl py-2'>Company</h3>
                     <ul className='list-none space-y-2'>
